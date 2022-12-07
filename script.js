@@ -16,14 +16,6 @@ window.onclick = function(event) {
   }
 }
 
-const inputFeature = document.querySelector('#inputFeature');
-
-
-inputFeature.keypress(function(e){
-  // только такие символы
-  var regx = /^[a-zA-Zа-яА-ЯёЁ0-9]$/;
-  if (!e.key.match(regx))
-         e.preventDefault();
- });
-
+// для латиницы и кириллицы
+const __isAlphaNumeric = (str) => /^[0-9A-ZА-ЯЁ]+$/i.test(str)
 
