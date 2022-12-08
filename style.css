@@ -396,7 +396,7 @@ input{
 }
 
 }
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   body{
     width: 800px;
   }
@@ -405,4 +405,4 @@ input{
   body{
     width: 800px;
   }
-}
+} */
